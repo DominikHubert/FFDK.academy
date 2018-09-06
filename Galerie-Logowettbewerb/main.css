@@ -57,125 +57,232 @@ ul li:nth-child(3){
     transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(4){
-    background: rgba(244, 78, 66, 0.2);
-    top: +150px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +300px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(5){
-    background: rgba(244, 78, 66, 0.2);
-    top: +300px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +450px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(6){
-    background: rgba(244, 78, 66, 0.2);
-    top: +450px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +600px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(7){
-    background: rgba(244, 78, 66, 0.2);
-    top: +600px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +750px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(8){
-    background: rgba(244, 78, 66, 0.2);
-    top: +750px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +900px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(9){
-    background: rgba(244, 78, 66, 0.2);
-    top: +900px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +1050px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(10){
-    background: rgba(244, 78, 66, 0.2);
-    top: +1050px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +1200px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(11){
-    background: rgba(244, 78, 66, 0.2);
-    top: +1200px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +1350px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(12){
-    background: rgba(244, 78, 66, 0.2);
-    top: +1350px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +1500px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(13){
-    background: rgba(244, 78, 66, 0.2);
-    top: +1500px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +1650px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(14){
-    background: rgba(244, 78, 66, 0.2);
-    top: +1650px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +1800px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(15){
-    background: rgba(244, 78, 66, 0.2);
-    top: +1800px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +1950px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(16){
-    background: rgba(244, 78, 66, 0.2);
-    top: +1950px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +2100px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(17){
-    background: rgba(244, 78, 66, 0.2);
-    top: +2100px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +2250px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(18){
-    background: rgba(244, 78, 66, 0.2);
-    top: +2250px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +2400px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(19){
-    background: rgba(244, 78, 66, 0.2);
-    top: +2400px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +2550px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(20){
-    background: rgba(244, 78, 66, 0.2);
-    top: +2650px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +2700px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(21){
-    background: rgba(244, 78, 66, 0.2);
-    top: +2800px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +2850px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(22){
-    background: rgba(244, 78, 66, 0.2);
-    top: +2950px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +3000px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(23){
-    background: rgba(244, 78, 66, 0.2);
-    top: +3100px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +3150px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(24){
-    background: rgba(244, 78, 66, 0.2);
-    top: +3250px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +3300px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(25){
-    background: rgba(244, 78, 66, 0.2);
-    top: +3400px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +3450px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(26){
-    background: rgba(244, 78, 66, 0.2);
-    top: +3550px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +3600px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(27){
-    background: rgba(244, 78, 66, 0.2);
-    top: +3700px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +3750px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(28){
-    background: rgba(244, 78, 66, 0.2);
-    top: +3850px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +3900px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(29){
-    background: rgba(244, 78, 66, 0.2);
-    top: +4000px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +4050px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(30){
-    background: rgba(244, 78, 66, 0.2);
-    top: +4150px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +4200px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(31){
-    background: rgba(244, 78, 66, 0.2);
-    top: +4300px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +4350px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(32){
-    background: rgba(244, 78, 66, 0.2);
-    top: +4450px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +4500px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
 ul li:nth-child(33){
-    background: rgba(244, 78, 66, 0.2);
-    top: +4600px;
+    background:rgba(244, 78, 66, 0.5);
+    top: +4650px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
 }
+ul li:nth-child(34){
+    background:rgba(244, 78, 66, 0.5);
+    top: +4800px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(35){
+    background:rgba(244, 78, 66, 0.5);
+    top: +4950px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(36){
+    background:rgba(244, 78, 66, 0.5);
+    top: +5100px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(37){
+    background:rgba(244, 78, 66, 0.5);
+    top: +5250px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(38){
+    background:rgba(244, 78, 66, 0.5);
+    top: +5400px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(30){
+    background:rgba(244, 78, 66, 0.5);
+    top: +5550px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(40){
+    background:rgba(244, 78, 66, 0.5);
+    top: +5700px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(42){
+    background:rgba(244, 78, 66, 0.5);
+    top: +5850px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(43){
+    background:rgba(244, 78, 66, 0.5);
+    top: +6000px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(44){
+    background:rgba(244, 78, 66, 0.5);
+    top: +6150px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(45){
+    background:rgba(244, 78, 66, 0.5);
+    top: +6300px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(46){
+    background:rgba(244, 78, 66, 0.5);
+    top: +6450px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(47){
+    background:rgba(244, 78, 66, 0.5);
+    top: +6600px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(48){
+    background:rgba(244, 78, 66, 0.5);
+    top: +6750px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+ul li:nth-child(49){
+    background:rgba(244, 78, 66, 0.5);
+    top: +6900px;
+    transform: rotateZ(-5deg) rotateX(-5deg);
+}
+
+
 
 
 ul li:hover{
