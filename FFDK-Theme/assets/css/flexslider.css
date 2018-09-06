@@ -1,0 +1,234 @@
+/*
+ * jQuery FlexSlider v2.5.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ *
+ * @package zeeDynamic
+ */
+
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+.zeeflex-container a:hover,
+.zeeflex-slider a:hover,
+.zeeflex-container a:focus,
+.zeeflex-slider a:focus {
+	outline: none;
+}
+.zeeslides,
+.zeeslides > li,
+.zeeflex-control-nav,
+.zeeflex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.zeeflex-pauseplay span {
+	text-transform: capitalize;
+}
+
+/* ====================================================================================================================
+ * BASE STYLES
+ * ====================================================================================================================*/
+.zeeflexslider {
+	margin: 0;
+	padding: 0;
+}
+.zeeflexslider .zeeslides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+.zeeflexslider .zeeslides img {
+	display: block;
+	width: 100%;
+}
+.zeeflexslider .zeeslides:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: "\0020";
+	line-height: 0;
+}
+html[xmlns] .zeeflexslider .zeeslides {
+	display: block;
+}
+* html .zeeflexslider .zeeslides {
+	height: 1%;
+}
+.no-js .zeeflexslider .zeeslides > li:first-child {
+	display: block;
+}
+
+/* ====================================================================================================================
+ * zeeDynamic Slider Theme
+ * ====================================================================================================================*/
+
+.post-slider-container {
+	overflow: hidden;
+	margin: 0 0 2em;
+	padding-bottom: 15px;
+}
+
+.post-slider-wrap {
+	position: relative;
+}
+
+.post-slider, .zeeflexslider .zeeslides {
+	zoom: 1;
+}
+
+.post-slider .zeeslide {
+	position: relative;
+}
+
+.zeeflex-viewport {
+	max-height: 2000px;
+	transition: all 1s ease;
+}
+
+.post-slider .zeeslide .slide-image-wrap {
+	margin: 0;
+	padding: 0;
+	background: #e5e5e5;
+}
+
+.post-slider .zeeslide .slide-image {
+	margin: auto;
+	padding: 0;
+	max-width: 100%;
+	max-height: 360px;
+	width: auto;
+	height: auto;
+	vertical-align: top;
+}
+
+.post-slider .zeeslide .slide-post {
+	box-sizing: border-box;
+	margin-top: 1px;
+	padding: 1em 1.5em;
+	border-top: 10px solid #e84747;
+	background: #333;
+	color: #fff;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.post-slider .zeeslide .slide-post .entry-title a:link,
+.post-slider .zeeslide .slide-post .entry-title a:visited {
+	color: #fff;
+}
+
+.post-slider .zeeslide .slide-post .entry-title a:hover,
+.post-slider .zeeslide .slide-post .entry-title a:active {
+	color: #aaa;
+}
+
+.post-slider .zeeslide .slide-post .entry-content {
+	margin: 0.5em 0;
+}
+
+.post-slider .zeeslide .slide-post .entry-content p {
+	margin: 0;
+}
+
+.post-slider-controls {
+	clear: left;
+}
+
+/* Direction Nav */
+.post-slider-controls .zeeflex-direction-nav {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	*height: 0;
+}
+
+.post-slider-controls .zeeflex-direction-nav a {
+	position: absolute;
+	z-index: 10;
+	display: block;
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	background: #e84747;
+	color: #fff;
+	text-align: left;
+	font-size: 0;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.post-slider-controls .zeeflex-direction-nav a:hover {
+	background: #333;
+	text-decoration: none;
+}
+
+.post-slider-controls .zeeflex-direction-nav a:before {
+	display: inline-block;
+	margin: 0.35em;
+	color: #fff;
+	vertical-align: text-bottom;
+	text-decoration: inherit;
+	font: normal 24px/1 Genericons;
+	-webkit-font-smoothing: antialiased;
+}
+
+.post-slider-controls .zeeflex-direction-nav a.zeeflex-next:before {
+	content: '\f431';
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform:rotate(270deg);
+	-ms-transform:rotate(270deg);
+}
+
+.post-slider-controls .zeeflex-direction-nav a.zeeflex-prev:before {
+	content: '\f431';
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+}
+
+.post-slider-controls .zeeflex-direction-nav .zeeflex-next {
+	left: 42px;
+}
+
+/* Control Nav */
+.post-slider-controls .zeeflex-control-nav {
+	position: absolute;
+	display: table;
+	margin: 1px 0 0;
+	width: 100%;
+}
+
+.post-slider-controls .zeeflex-control-nav li {
+	display: table-cell;
+	*display: inline;
+	padding: 0 1px 1px 0;
+	background: #fff;
+	zoom: 1;
+}
+
+.post-slider-controls .zeeflex-control-nav li a {
+	z-index: 999;
+	display: block;
+	height: 15px;
+	background: #333;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.post-slider-controls .zeeflex-control-nav li a:hover {
+	background: #e84747;
+}
+
+.post-slider-controls .zeeflex-control-nav li a.zeeflex-active {
+	background: #e84747;
+	cursor: default;
+}
