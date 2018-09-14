@@ -1,0 +1,46 @@
+<img src="https://ffdk.academy/Bilder/Team/Ufuk%20sw-min.jpg" alt="Ufuk" class="image" style="width:200">
+<h1>6</h1>
+<div class="row">
+<button id="myBtnD"onclick="openModal();currentSlide(6)" class="hover-shadow cursor">Erfahre mehr</button>  
+</div>
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">×</span>
+<div class="modal-content">
+<div class="mySlides">
+<span class="close cursor" onclick="closeModal()">×</span>
+<h1><img src="https://ffdk.academy/Bilder/Team/Alex-min.jpg" width="311" height="194" align="left" vspace="10" hspace="20" alt="Text?">Alex</h1>
+<p>"Alles scheint unmöglich - bis es jemand macht!" 
+Nach meinen ersten Schritten in der Krypo-Welt merkte ich schnell, dass es wenig bis gar keine deutschsprachigen Videos auf Youtube gab. Selbst ein Börsianer wie ich, recherchierte unzählige Stunden damit zumindest das Grundlegendste zu verstehen. Wie sollen die Massen die geniale "Blockchain-Technologie" so verstehen?! Es wurde Zeit … Das Ziel meines Kanals wurde Programm und Name zugleich. Lasst uns gemeinsam den Weg zur "Finanziellen Freiheit dank Kryptowährungen " gehen und durch deutschsprachige Videos, mein bereits erhaschtes Wissen aber vor allem die Community täglich dazu lernen und durch News stets auf dem laufenden bleiben.
+</p>
+</div>
+<div class="mySlides">
+<span class="close cursor" onclick="closeModal()">×</span>
+<h1><img src="https://ffdk.academy/Bilder/Team/Dominik-min.jpg" width="311" height="194" align="left" vspace="10" hspace="20" alt="Text?">Dominik</h1>
+<p>Das Wort "Bitcoin" hörte ich das erste Mal, in einer Vorlesung, im Jahre 2012. Zu dieser Zeit war ich von der Idee begeistert, sah aber keine große Chance in der Verbreitung einer dezentralen Währung. Über die Jahre hinweg hörte ich immer wieder, in teils sehr negativen Berichten, von Bitcoin. Dies war dann auch der Auslöser mich mit der Technik mehr zu befassen und dabei festzustellen, Blockchain ist viel mehr als nur Bitcoin. Mein Ziel ist es, zusammen mit FFDK, möglichst viele zu erreichen, diese über die Technologie aufzuklären, zu begeistern und den Einstiege zu erleichtern.
+</p>
+</div>
+<div class="mySlides">
+<span class="close cursor" onclick="closeModal()">×</span>
+<h1><img src="https://ffdk.academy/Bilder/Team/Denis-min.jpg" width="311" height="194" align="left" vspace="10" hspace="20" alt="Text?">Denis</h1>
+<p>Nachdem ich 2010 schon die ersten, noch skeptischen, Berührungspunkte mit Bitcoin und CO. hatte, bin ich durch die Infos von FFDK immer überzeugter bzgl. der Technologie geworden. Ich habe mich schon im Kindesalter für PC´s interessiert und in meinem Job als Fahrdienstleiter ist Sie nicht wegzudenken. Ganz genau wie die Blockchain. Mein Ziel bei FFDK ist es genau diese Idee der Blockchain, die wohl revolutionärste aber vor allem auch dezentralste Technologie unserer Zeit zu verbreiten.
+</p>
+</div>
+<div class="mySlides">
+<span class="close cursor" onclick="closeModal()">×</span>
+<h1><img src="https://ffdk.academy/Bilder/Team/Felix-min.jpg" width="311" height="194" align="left" vspace="10" hspace="20" alt="Text?">Felix</h1>
+<p>Ich selbst bin seit Herbst 2017 vom Crypto-Virus infiziert. Kryptographie und neue Technologien sind meine Leidenschaft. Ein Arbeitskollege im Werkzeug- und Maschienbau hat mir meinen Weg ins Crypto-Space geebnet. Meine technische Neugier und meine Fähigkeit selbst lesefaulen Leuten auf Baustellen das Thema einfach und kollegial zu erläutern hat mich zu FFDK gebracht. Hier möchte ich genau dieses einfache Erklären weitertragen an so viele Menschen wie möglich.
+</p>
+</div>
+<div class="mySlides">
+<span class="close cursor" onclick="closeModal()">×</span>
+<h1><img src="https://ffdk.academy/Bilder/Team/Fabio-min.jpg" width="311" height="194" align="left" vspace="10" hspace="20" alt="Text?">Fabio</h1>
+<p>Text fehlt</p>
+</div>
+<div class="mySlides">
+<span class="close cursor" onclick="closeModal()">×</span>
+<h1><img src="https://ffdk.academy/Bilder/Team/Ufuk-min.jpg" width="311" height="194" align="left" vspace="10" hspace="20" alt="Text?">Ufuk</h1>
+<p>Text fehlt</p>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://ffdk.academy/CMC-Widgets/Team.js"></script>
